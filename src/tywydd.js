@@ -1,3 +1,5 @@
+
+
 let inputElem = document.querySelector(".search-input");
 let currentCity = document.querySelector(".current-city");
 let dataElem = document.querySelector(".current-date");
