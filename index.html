@@ -6,11 +6,40 @@
     <title>Rhagolygon y Tywydd</title>
 </head>
 <body>
-    <h1>Rhagolygon y Tywydd Application</h1>
+    <header>
+        <form id="search-form">
+            <input
+              type="search"
+              placeholder="Please Enter a City.."
+              required
+              class="search-input"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+        </header>
+        <main>
+          <div class="current-weather">
+            <div>
+              <h1 class="current-city">Newport</h1>
+              <p class="current-details">
+                <span class="current-date">Saturday 15:32</span>,
+                <span class="info">moderate rain</span>
+                <br />
+                Humidity: <strong class="humidity">87</strong><strong>%</strong>,
+                Wind: <strong class="wind">7.2</strong><strong>km/h</strong>
+              </p>
+            </div>
+            <div class="current-temperature">
+              <span class="current-temperature-icon">☀️</span
+              ><span class="current-temperature-value">24</span
+              ><span class="current-temperature-unit">°C</span>
+            </div>
+          </div>
+        </main> 
     <footer> 
         <p>
             This project was coded by
-            <a href="https://github.com/SarahHenton/" target="_blank">Sarah Henton</a> , is
+            <a href="https://github.com/SarahHenton/" target="_blank">Sarah Henton</a>, is
             <a href="https://github.com/SarahHenton/Rhagolygon-y-Tywydd" target="_blank"> open-sourced on GitHub</a> and 
             <a href="https://venerable-croissant-tywydd.netlify.app/" target="_blank">hosted on Netlify</a>
           </p>
